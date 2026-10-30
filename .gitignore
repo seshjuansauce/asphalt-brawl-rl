@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Training artefacts (use GitHub Releases for the final model)
+runs/
+mlruns/
+checkpoints/
+videos/
+*.zip
+*.pt
+
+# OS
+.DS_Store
